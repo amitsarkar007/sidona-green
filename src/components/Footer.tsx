@@ -21,10 +21,9 @@ const Footer = () => {
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2 text-gray-300">
                 <li><a href="/" className="hover:text-white transition-colors">Home</a></li>
-                <li><a href="#about" className="hover:text-white transition-colors">About Us</a></li>
-                <li><a href="#services" className="hover:text-white transition-colors">Our Services</a></li>
-                <li><a href="#what-we-do" className="hover:text-white transition-colors">What We Do</a></li>
-                <li><a href="#team" className="hover:text-white transition-colors">Team</a></li>
+                <li><a href="/about-us" className="hover:text-white transition-colors">About Us</a></li>
+                <li><a href="/our-services" className="hover:text-white transition-colors">Our Services</a></li>
+                <li><a href="/team" className="hover:text-white transition-colors">Team</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Publications & Media</a></li>
                 <li><a href="/contact" className="hover:text-white transition-colors">Contact Us</a></li>
               </ul>
@@ -74,7 +73,7 @@ const Footer = () => {
       {/* Copyright */}
       <div className="border-t border-gray-700 py-4">
         <div className="container mx-auto px-4 text-center text-gray-400">
-          <p>&copy; Sidona 2025 | All Rights Reserved</p>
+          <p>&copy; Sidona Green 2025 | All Rights Reserved</p>
         </div>
       </div>
     </footer>

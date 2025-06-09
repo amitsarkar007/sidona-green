@@ -7,10 +7,9 @@ const Header = () => {
 
   const navigationItems = [
     { name: "HOME", href: "/" },
-    { name: "ABOUT US", href: "#about" }, 
-    { name: "OUR SERVICES", href: "#services" },
-    { name: "WHAT WE DO", href: "#what-we-do" },
-    { name: "TEAM", href: "#team" },
+    { name: "ABOUT US", href: "/about-us" }, 
+    { name: "OUR SERVICES", href: "/our-services" },
+    { name: "TEAM", href: "/team" },
     { name: "PUBLICATIONS & MEDIA", href: "#" },
     { name: "CONTACT US", href: "/contact" }
   ];
@@ -21,11 +20,13 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src="/lovable-uploads/433fcb7a-bffb-4c95-b6ea-e92c3ee139ee.png" 
-              alt="Sidona Green Logo" 
-              className="h-10 w-auto"
-            />
+            <a href="/">
+              <img 
+                src="/lovable-uploads/433fcb7a-bffb-4c95-b6ea-e92c3ee139ee.png" 
+                alt="Sidona Green Logo" 
+                className="h-10 w-auto cursor-pointer"
+              />
+            </a>
           </div>
 
           {/* Desktop Navigation */}

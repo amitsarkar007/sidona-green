@@ -32,6 +32,15 @@ const AboutSection = () => {
               With deep expertise and a hands-on approach, Sidona Green is your partner on the journey toward sustainable 
               finance and climate resilience.
             </p>
+
+            <div className="mt-8">
+              <a 
+                href="/about-us"
+                className="inline-block bg-orange-600 text-white px-6 py-3 rounded font-medium hover:bg-orange-700 transition-colors"
+              >
+                Learn More About Us
+              </a>
+            </div>
           </div>
         </div>
       </div>

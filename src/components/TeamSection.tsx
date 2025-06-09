@@ -26,9 +26,9 @@ const TeamSection = () => {
                     consulting sector. Her experience spans from designing for delivering financial advisory services, 
                     leading climate programmes to sustainable finance and impact measurement & management.
                   </p>
-                  <button className="text-orange-600 font-medium hover:underline">
+                  <a href="/team" className="text-orange-600 font-medium hover:underline">
                     Read More...
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
