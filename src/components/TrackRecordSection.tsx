@@ -9,9 +9,12 @@ const TrackRecordSection = () => {
         <p className="text-lg mb-8 opacity-90">
           Sidona's client's industry-leading business standards are preferred by professionals across the world.
         </p>
-        <button className="bg-orange-600 text-white px-6 py-3 rounded font-medium hover:bg-orange-700 transition-colors">
+        <a 
+          href="/contact"
+          className="inline-block bg-orange-600 text-white px-6 py-3 rounded font-medium hover:bg-orange-700 transition-colors"
+        >
           Book Consultation Now
-        </button>
+        </a>
       </div>
     </section>
   );

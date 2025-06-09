@@ -1,14 +1,14 @@
 
 const AboutSection = () => {
   return (
-    <section className="py-16 bg-gray-50">
+    <section id="about" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-8">
             About Sidona Green
           </h2>
           
-          <div className="space-y-6 text-gray-600 leading-relaxed">
+          <div className="space-y-6 text-gray-600 leading-relaxed text-left md:text-center">
             <p>
               At Sidona Green we are dedicated to helping financial institutions and corporations navigate the evolving landscape of 
               ESG and climate finance. With a deep commitment to sustainability and resilience, we work centres on integrating 

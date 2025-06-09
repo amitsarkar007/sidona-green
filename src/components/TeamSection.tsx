@@ -1,7 +1,7 @@
 
 const TeamSection = () => {
   return (
-    <section className="py-16 bg-white">
+    <section id="team" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
           OUR TEAM
@@ -9,7 +9,13 @@ const TeamSection = () => {
         
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="w-48 h-48 bg-gray-300 rounded-full flex-shrink-0"></div>
+            <div className="w-48 h-48 flex-shrink-0">
+              <img 
+                src="/lovable-uploads/bb2a5021-3862-4d72-b6cf-e99ef82fdd6b.png"
+                alt="Kangkona Sarma"
+                className="w-full h-full object-cover rounded-full"
+              />
+            </div>
             
             <div className="flex-1">
               <div className="flex items-start gap-4">
