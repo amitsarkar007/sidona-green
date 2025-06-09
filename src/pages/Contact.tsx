@@ -19,7 +19,7 @@ const Contact = () => {
     const formData = new FormData(form);
 
     try {
-      const response = await fetch("https://formspree.io/f/kongkona@sidonaconsulting.co.uk", {
+      const response = await fetch("https://formsubmit.co/kongkona@sidonaconsulting.co.uk", {
         method: "POST",
         body: formData,
         headers: {
@@ -171,7 +171,6 @@ const Contact = () => {
                 <div className="space-y-2 text-gray-600">
                   <p>📧 Email: kongkona@sidonaconsulting.co.uk</p>
                   <p>📞 Phone: +44 7736 497010</p>
-                  <p>💬 WhatsApp: +44 7736 497010</p>
                   <p>📍 Address: 20-22 Wenlock Road | London | N1 7GU England</p>
                 </div>
               </div>
