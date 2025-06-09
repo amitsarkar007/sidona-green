@@ -11,8 +11,8 @@ const TeamSection = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-48 h-48 flex-shrink-0">
               <img 
-                src="/lovable-uploads/bb2a5021-3862-4d72-b6cf-e99ef82fdd6b.png"
-                alt="Kangkona Sarma"
+                src="/images/profile.png"
+                alt="Kongkona Sarma"
                 className="w-full h-full object-cover rounded-full"
               />
             </div>
@@ -22,7 +22,7 @@ const TeamSection = () => {
                 <span className="text-6xl font-bold text-orange-600">K</span>
                 <div>
                   <p className="text-gray-600 leading-relaxed mb-4">
-                    angkona Sarma is recognised with 20 years of experience working in the financial strategy, 
+                    ongkona Sarma is recognised with 20 years of experience working in the financial strategy, 
                     consulting sector. Her experience spans from designing for delivering financial advisory services, 
                     leading climate programmes to sustainable finance and impact measurement & management.
                   </p>

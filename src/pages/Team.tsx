@@ -89,8 +89,8 @@ const Team = () => {
             <div className="flex flex-col md:flex-row gap-8">
               <div className="md:w-1/3">
                 <img 
-                  src="/lovable-uploads/bb2a5021-3862-4d72-b6cf-e99ef82fdd6b.png"
-                  alt="Kangkona Sarma"
+                  src="/images/profile.png"
+                  alt="Kongkona Sarma"
                   className="w-full rounded-lg"
                 />
               </div>
@@ -100,10 +100,10 @@ const Team = () => {
                   <span className="text-6xl font-bold text-orange-600">F</span>
                   <div>
                     <p className="text-gray-600 leading-relaxed mb-4">
-                      ounded by Kangkona Sarma, a seasoned expert with over 20 years of experience in the financial services industry and strategy consulting, Sidona Green brings a global perspective grounded in practical, on-the-ground implementation.
+                      ounded by Kongkona Sarma, a seasoned expert with over 20 years of experience in the financial services industry and strategy consulting, Sidona Green brings a global perspective grounded in practical, on-the-ground implementation.
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-4">
-                      With extensive experience in sustainable finance and impact measurement, Kangkona has worked with a diverse range of financial institutions including impact investors, MFIs, sovereign wealth funds, and asset management firms to integrate ESG considerations into their core strategies and investment decisions. Her expertise encompasses ESG reporting standards, climate taxonomies, and impact management frameworks, helping organizations navigate their sustainability journeys with practical, actionable insights.
+                      With extensive experience in sustainable finance and impact measurement, Kongkona has worked with a diverse range of financial institutions including impact investors, MFIs, sovereign wealth funds, and asset management firms to integrate ESG considerations into their core strategies and investment decisions. Her expertise encompasses ESG reporting standards, climate taxonomies, and impact management frameworks, helping organizations navigate their sustainability journeys with practical, actionable insights.
                     </p>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ const Team = () => {
       {/* Interactive Map Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-orange-600 mb-8">Countries Where Projects Have Been Delivered</h2>
+          <h2 className="text-3xl font-bold text-center text-orange-600 mb-8">Countries where we have worked</h2>
           <div 
             ref={mapContainer} 
             className="w-full h-96 rounded-lg shadow-lg"
@@ -128,7 +128,6 @@ const Team = () => {
       {/* Projects Delivered Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-orange-600 mb-8">Projects Delivered by Countries</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">

@@ -164,16 +164,6 @@ const Contact = () => {
                 </form>
               )}
 
-              <div className="mt-8 pt-8 border-t border-gray-200">
-                <h3 className="text-lg font-semibold mb-4 text-gray-800">
-                  Other Ways to Reach Us
-                </h3>
-                <div className="space-y-2 text-gray-600">
-                  <p>📧 Email: kongkona@sidonaconsulting.co.uk</p>
-                  <p>📞 Phone: +44 7736 497010</p>
-                  <p>📍 Address: 20-22 Wenlock Road | London | N1 7GU England</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>

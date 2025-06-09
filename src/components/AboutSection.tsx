@@ -16,7 +16,7 @@ const AboutSection = () => {
             </p>
             
             <p>
-              Founded by Kangkona Sarma, a seasoned expert with over 20 years of experience in the financial services industry and 
+              Founded by Kongkona Sarma, a seasoned expert with over 20 years of experience in the financial services industry and 
               strategy consulting, Sidona Green brings a practical, client-grounded approach to practical, cost-effective climate implementation.
             </p>
             

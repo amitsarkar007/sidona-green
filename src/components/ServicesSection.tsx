@@ -4,24 +4,24 @@ import { Users, BarChart3, MapPin, TrendingUp } from "lucide-react";
 const ServicesSection = () => {
   const services = [
     {
-      icon: Users,
+      icon: BarChart3, // BarChart3 for ESG Consultancy (strategy, metrics, reporting)
       title: "ESG Consultancy Services",
       description: "Comprehensive ESG strategy development and implementation"
     },
     {
-      icon: BarChart3,
+      icon: Users, // Users for Trainings (people, workshops)
+      title: "Climate and ESG Trainings",
+      description: "Expert-led workshops and training programs"
+    },
+    {
+      icon: TrendingUp, // TrendingUp for Impact Measurement (growth, progress, measurement)
       title: "Impact Measurement",
       description: "Measuring and reporting environmental and social impact"
     },
     {
-      icon: MapPin,
+      icon: MapPin, // MapPin for Responsible Tourism (travel, location)
       title: "Responsible Tourism",
       description: "Sustainable tourism development and consultation"
-    },
-    {
-      icon: TrendingUp,
-      title: "Climate and ESG Trainings",
-      description: "Expert-led workshops and training programs"
     }
   ];
 

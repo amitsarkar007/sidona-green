@@ -27,6 +27,7 @@ const Footer = () => {
               <div className="text-gray-300 space-y-2">
                 <p>📍 20-22 Wenlock Road | London| N1 7GU England</p>
                 <p>📧 kongkona@sidonaconsulting.co.uk</p>
+                <p>📞 Phone: +44 7736 497010</p>
               </div>
             </div>
 
@@ -64,7 +65,7 @@ const Footer = () => {
       {/* Copyright */}
       <div className="border-t border-gray-700 py-4">
         <div className="container mx-auto px-4 text-center text-gray-400">
-          <p>&copy; Sidona Green 2025 | All Rights Reserved</p>
+          <p>&copy; Sidona Green 2025 | All Rights Reserved | Company number <a href="https://find-and-update.company-information.service.gov.uk/company/14679269" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">14679269</a></p>
         </div>
       </div>
     </footer>

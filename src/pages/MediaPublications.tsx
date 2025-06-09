@@ -7,49 +7,49 @@ const MediaPublications = () => {
     {
       title: "Opinion: Promoting gender and climate-smart investment",
       url: "https://www.devex.com/news/sponsored/opinion-promoting-gender-and-climate-smart-investment-102072",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://res.cloudinary.com/devex/image/fetch/c_scale,f_auto,q_auto,w_720/https://lh6.googleusercontent.com/3yGOnppggX9az_6hL_P5fivyCrsRRfKryfHV9K358SAG7SyhfsF80YxSLpljJA5mLpXE12RF7x5CcoKAHQ44Nzj0eKlaC8O4ypuCliZrWBmbjAetA4WX3TDyApMnZZVFdgQA6e5_",
       description: "Exploring gender-smart investment approaches in climate finance"
     },
     {
       title: "Investment Climate Review - St Helena",
       url: "https://www.gov.uk/research-for-development-outputs/investment-climate-review-st-helena",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/images/news_2.png",
       description: "Government research on investment climate in St Helena"
     },
     {
       title: "Sounds a bit off track",
       url: "https://bangaloremirror.indiatimes.com/opinion/sunday-read/sounds-a-bit-off-track/articleshow/21750795.cms",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://static.toiimg.com/thumb/msid-21750796,width-400,resizemode-4/21750796.jpg",
       description: "Opinion piece on transportation and urban planning"
     },
     {
       title: "Hidden from plain sight",
       url: "https://www.hindustantimes.com/travel/hidden-from-plain-sight/story-I96Wc6eSBC6vF32PmFUSIP.html",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/images/plain sight.png",
       description: "Travel article exploring hidden destinations"
     },
     {
       title: "Pack a punch",
       url: "https://bangaloremirror.indiatimes.com/opinion/you/pack-a-punch/articleshow/21747987.cms",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://static.toiimg.com/thumb/msid-21747988,width-400,resizemode-4/21747988.jpg",
       description: "Opinion piece on making impactful changes"
     },
     {
       title: "Workshop on Sustainability and Climate-related Financial Disclosures",
       url: "https://today.thefinancialexpress.com.bd/trade-market/workshop-on-sustainability-and-climate-related-financial-disclosures-1737217229",
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://today.thefinancialexpress.com.bd/public/uploads/P20_EBL_Press_Release-Pic.jpg",
       description: "Financial Express coverage of sustainability workshop"
     },
     {
       title: "ESG Standards and Their Importance for Turkmen Business",
       url: "https://orient.tm/en/post/84749/itse-british-expert-presented-esg-standards-and-their-importance-turkmen-business",
-      image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://orient.tm/storage/app/uploads/public/4e1/6de/fbf/thumb__693_0_0_0_auto.jpg",
       description: "British expert presentation on ESG standards in Turkmenistan"
     },
     {
       title: "SIBM Bangalore LinkedIn Post",
       url: "https://www.linkedin.com/posts/sibm-bangalore_lifeatsibmb-sibmbengaluru-mbalife-activity-7298650165920378880-7gJS/",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/images/1740131153413.jpeg",
       description: "SIBM Bangalore professional engagement"
     }
   ];
