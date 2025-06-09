@@ -16,15 +16,6 @@ const OurServices = () => {
         </div>
       </section>
 
-      {/* Services Hero Image */}
-      <section className="relative h-[400px] bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')`
-        }}
-      >
-        <div className="absolute inset-0 bg-green-600 bg-opacity-40"></div>
-      </section>
-
       {/* ESG Consultancy Services */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">

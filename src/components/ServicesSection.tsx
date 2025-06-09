@@ -20,8 +20,8 @@ const ServicesSection = () => {
     },
     {
       icon: TrendingUp,
-      title: "Market Research And Sectoral Assessments",
-      description: "In-depth market analysis and sector-specific insights"
+      title: "Climate and ESG Trainings",
+      description: "Expert-led workshops and training programs"
     }
   ];
 
@@ -44,9 +44,12 @@ const ServicesSection = () => {
               <p className="text-sm mb-4 opacity-90">
                 {service.description}
               </p>
-              <button className="bg-white text-orange-600 px-4 py-2 rounded text-sm font-medium hover:bg-gray-100 transition-colors">
+              <a 
+                href="/our-services"
+                className="bg-white text-orange-600 px-4 py-2 rounded text-sm font-medium hover:bg-gray-100 transition-colors inline-block"
+              >
                 Read More
-              </button>
+              </a>
             </div>
           ))}
         </div>

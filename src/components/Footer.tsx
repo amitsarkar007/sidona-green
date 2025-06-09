@@ -4,14 +4,6 @@ import { Linkedin } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white">
-      {/* Breaking News Bar */}
-      <div className="bg-orange-600 py-2">
-        <div className="container mx-auto px-4 flex items-center justify-between">
-          <span className="font-medium">Breaking News:</span>
-          <span className="flex-1 mx-4">Click Here to watch news.</span>
-        </div>
-      </div>
-
       {/* Main Footer */}
       <div className="py-12">
         <div className="container mx-auto px-4">
@@ -24,7 +16,7 @@ const Footer = () => {
                 <li><a href="/about-us" className="hover:text-white transition-colors">About Us</a></li>
                 <li><a href="/our-services" className="hover:text-white transition-colors">Our Services</a></li>
                 <li><a href="/team" className="hover:text-white transition-colors">Team</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Publications & Media</a></li>
+                <li><a href="/publications-media" className="hover:text-white transition-colors">Publications & Media</a></li>
                 <li><a href="/contact" className="hover:text-white transition-colors">Contact Us</a></li>
               </ul>
             </div>
@@ -35,7 +27,6 @@ const Footer = () => {
               <div className="text-gray-300 space-y-2">
                 <p>📍 20-22 Wenlock Road | London| N1 7GU England</p>
                 <p>📧 kongkona@sidonaconsulting.co.uk</p>
-                <p>📞 +44 7736 497010</p>
               </div>
             </div>
 
