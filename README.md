@@ -1,22 +1,16 @@
-# Welcome to your Lovable project
+# Sidona Green
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/d95499ab-54b8-44a4-bc7b-a2c783f5cb9d
+**Live Site**: [https://sidonagreen.netlify.app/](https://sidonagreen.netlify.app/)
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/d95499ab-54b8-44a4-bc7b-a2c783f5cb9d) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,12 +56,8 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/d95499ab-54b8-44a4-bc7b-a2c783f5cb9d) and click on Share -> Publish.
+The project is deployed on Netlify. You can deploy updates by pushing to the main branch or connecting your own Netlify account.
 
-## Can I connect a custom domain to my Lovable project?
+## Can I connect a custom domain?
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Yes, you can! Configure your custom domain in your Netlify dashboard.
