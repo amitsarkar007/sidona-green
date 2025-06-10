@@ -10,6 +10,7 @@ import OurServices from "./pages/OurServices";
 import MediaPublications from "./pages/MediaPublications";
 import NotFound from "./pages/NotFound";
 import ScrollToTopButton from "@/components/ui/ScrollToTopButton";
+import ScrollToTop from "@/components/ui/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +20,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/contact" element={<Contact />} />

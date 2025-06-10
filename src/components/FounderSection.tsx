@@ -32,7 +32,7 @@ const FounderSection = () => {
               {/* Text Content */}
               <div className="flex-1">
                 <p className="text-gray-600 text-lg leading-relaxed mb-4">
-                  ongkona sarma is an economist with 20 years of experience working in the financial strategy 
+                  ongkona Sarma is an economist with 20 years of experience working in the financial strategy 
                   consulting sector. Her experience spans from designing to delivering tailored advisory services 
                   to Financial Institutions in sustainable finance and impact measurement & management.
                 </p>
