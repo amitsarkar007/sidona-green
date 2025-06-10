@@ -3,6 +3,11 @@ const FounderSection = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
+          {/* Heading */}
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 text-center mb-12">
+            FOUNDER
+          </h2>
+          
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
             {/* Founder Image */}
             <div className="flex-shrink-0">
