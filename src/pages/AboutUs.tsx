@@ -58,7 +58,14 @@ const AboutUs = () => {
         { name: "Trinidad and Tobago", lat: 10.7466905, lng: -61.0840075 },
         { name: "Guyana", lat: 4.8417097, lng: -58.6416891 },
         { name: "United States", lat: 39.7837304, lng: -100.445882 },
-        { name: "Saint Helena", lat: -37.2465, lng: -12.4870385 }
+        { name: "Saint Helena, Ascension and Tristan da Cunha", lat: -37.2465, lng: -12.4870385 },
+        { name: "Benin", lat: 9.5293472, lng: 2.2584408 },
+        { name: "Bangladesh", lat: 24.4769288, lng: 90.2934413 },
+        { name: "Ghana", lat: 8.0300284, lng: -1.0800271 },
+        { name: "Qatar", lat: 25.3336984, lng: 51.2295295 },
+        { name: "Saint Lucia", lat: 13.8250489, lng: -60.975036 },
+        { name: "South Africa", lat: -28.8166236, lng: 24.991639 },
+        { name: "Turkmenistan", lat: 39.3763807, lng: 59.3924609 }
       ];
 
       locations.forEach(function(location) {
@@ -84,20 +91,6 @@ const AboutUs = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
             <h1 className="text-4xl font-bold text-orange-600 mb-4">ABOUT US</h1>
-          </div>
-        </div>
-      </section>
-
-      {/* About Content Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-orange-600 mb-6">
-              Sidona <span className="text-green-600">Green</span>
-            </h2>
-            <p className="text-gray-600 mb-6 leading-relaxed">
-            I run a niche consulting firm that provides advisory services to support your company on its sustainability journey.
-            </p>
           </div>
         </div>
       </section>
@@ -154,7 +147,7 @@ const AboutUs = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-bold mb-2 text-orange-600">Europe (1 countries)</h3>
+              <h3 className="text-xl font-bold mb-2 text-orange-600">Europe (1 country)</h3>
               <ul>
                 <li className="text-gray-700 mb-2">
                   <img src="https://flagcdn.com/24x18/gb.png" alt="United Kingdom flag" className="inline-block mr-2" /> 
@@ -164,7 +157,7 @@ const AboutUs = () => {
             </div>
             
             <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-bold mb-2 text-orange-600">Asia (6 countries)</h3>
+              <h3 className="text-xl font-bold mb-2 text-orange-600">Asia (9 countries)</h3>
               <ul>
                 <li className="text-gray-700 mb-2">
                   <img src="https://flagcdn.com/24x18/in.png" alt="India flag" className="inline-block mr-2" /> 
@@ -190,11 +183,23 @@ const AboutUs = () => {
                   <img src="https://flagcdn.com/24x18/am.png" alt="Armenia flag" className="inline-block mr-2" /> 
                   Armenia
                 </li>
+                <li className="text-gray-700 mb-2">
+                  <img src="https://flagcdn.com/24x18/bd.png" alt="Bangladesh flag" className="inline-block mr-2" /> 
+                  Bangladesh
+                </li>
+                <li className="text-gray-700 mb-2">
+                  <img src="https://flagcdn.com/24x18/qa.png" alt="Qatar flag" className="inline-block mr-2" /> 
+                  Qatar
+                </li>
+                <li className="text-gray-700 mb-2">
+                  <img src="https://flagcdn.com/24x18/tm.png" alt="Turkmenistan flag" className="inline-block mr-2" /> 
+                  Turkmenistan
+                </li>
               </ul>
             </div>
             
             <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-bold mb-2 text-orange-600">Africa (8 countries)</h3>
+              <h3 className="text-xl font-bold mb-2 text-orange-600">Africa (11 countries)</h3>
               <ul>
                 <li className="text-gray-700 mb-2">
                   <img src="https://flagcdn.com/24x18/ml.png" alt="Mali flag" className="inline-block mr-2" /> 
@@ -226,13 +231,25 @@ const AboutUs = () => {
                 </li>
                 <li className="text-gray-700 mb-2">
                   <img src="https://flagcdn.com/24x18/sh.png" alt="Saint Helena flag" className="inline-block mr-2" /> 
-                  Saint Helena
+                  Saint Helena, Ascension and Tristan da Cunha
+                </li>
+                <li className="text-gray-700 mb-2">
+                  <img src="https://flagcdn.com/24x18/bj.png" alt="Benin flag" className="inline-block mr-2" /> 
+                  Benin
+                </li>
+                <li className="text-gray-700 mb-2">
+                  <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana flag" className="inline-block mr-2" /> 
+                  Ghana
+                </li>
+                <li className="text-gray-700 mb-2">
+                  <img src="https://flagcdn.com/24x18/za.png" alt="South Africa flag" className="inline-block mr-2" /> 
+                  South Africa
                 </li>
               </ul>
             </div>
             
             <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-bold mb-2 text-orange-600">North America (3 countries)</h3>
+              <h3 className="text-xl font-bold mb-2 text-orange-600">North America (4 countries)</h3>
               <ul>
                 <li className="text-gray-700 mb-2">
                   <img src="https://flagcdn.com/24x18/bb.png" alt="Barbados flag" className="inline-block mr-2" /> 
@@ -246,11 +263,15 @@ const AboutUs = () => {
                   <img src="https://flagcdn.com/24x18/us.png" alt="United States flag" className="inline-block mr-2" /> 
                   United States
                 </li>
+                <li className="text-gray-700 mb-2">
+                  <img src="https://flagcdn.com/24x18/lc.png" alt="Saint Lucia flag" className="inline-block mr-2" /> 
+                  Saint Lucia
+                </li>
               </ul>
             </div>
             
             <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-bold mb-2 text-orange-600">South America (1 countries)</h3>
+              <h3 className="text-xl font-bold mb-2 text-orange-600">South America (1 country)</h3>
               <ul>
                 <li className="text-gray-700 mb-2">
                   <img src="https://flagcdn.com/24x18/gy.png" alt="Guyana flag" className="inline-block mr-2" /> 
