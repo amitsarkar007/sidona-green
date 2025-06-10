@@ -31,7 +31,24 @@ const OurServices = () => {
               <div className="lg:w-2/3">
                 <h2 className="text-3xl font-bold text-orange-600 mb-4">ESG Consultancy Services</h2>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  At Sidona Green, we will help conceptualise, coordinate, and oversee your organisation's sustainability practices. We will work with you to build your sustainability framework, develop your ESG strategy, ESG reporting, support your Net Zero journey.
+                We help you conceptualize, coordinate, and implement impactful ESG initiatives tailored to your industry and goals. Our services include:
+                <ul className="list-disc pl-6 mb-4 text-gray-600">
+                  <li>
+                    Building your ESG framework aligned with global standards (e.g., GRI, SASB, TCFD)
+                  </li>
+                  <li>
+                    Crafting a future-ready ESG strategy that drives long-term value and resilience
+                  </li>
+                  <li>
+                    Enabling robust ESG reporting with clear metrics, disclosures, and stakeholder alignment
+                  </li>
+                  <li>
+                    Supporting your Net Zero journey, including carbon accounting, reduction roadmaps, and transition planning
+                  </li>
+                </ul>
+                <span>
+                  Whether you’re at the beginning of your sustainability journey or looking to elevate your impact, we bring expertise, insight, and care to every step.
+                </span>
                 </p>
               </div>
             </div>
@@ -54,10 +71,17 @@ const OurServices = () => {
               <div className="lg:w-2/3">
                 <h2 className="text-3xl font-bold text-orange-600 mb-4">Climate and ESG Trainings</h2>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Empower your team with the knowledge and tools to drive meaningful change in your organizations. Our bespoke training programs cover:
+                We empower your teams to drive real change through expert-led, hands-on learning. Our customized training programs are designed to embed sustainability thinking into every part of your organization.
                 </p>
-                <p className="text-gray-600 leading-relaxed">
-                  Our expert-led workshops are designed to provide practical, hands-on learning experiences tailored to your organisation's specific needs and challenges.
+                <p><span className="font-semibold">Key focus areas include:</span>
+                <ul className="list-disc pl-6 mb-4 text-gray-600">
+                  <li>ESG Strategy &amp; Integration</li>
+                  <li>Climate Risk &amp; Resilience Assessment</li>
+                  <li>Sustainable Finance Fundamentals</li>
+                  <li>Net-Zero Transition Planning</li>
+                  <li>Impact Measurement &amp; Reporting</li>
+                </ul>
+                Tailored to your industry and challenges, our workshops turn ESG from a checklist into a lived capability.
                 </p>
               </div>
             </div>
@@ -80,7 +104,14 @@ const OurServices = () => {
               <div className="lg:w-2/3">
                 <h2 className="text-3xl font-bold text-orange-600 mb-4">Impact Measurement</h2>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  We will help you measure the impact of your investments and your corporate activities.
+                  We will help you move beyond good intentions by measuring the real-world outcomes of your sustainability efforts.
+
+                  <ul className="list-disc pl-6 mb-4 text-gray-600">
+                    <li>Track the social and environmental impact of your investments</li>
+                    <li>Evaluate how your core business operations align with ESG goals</li>
+                    <li>Design tailored frameworks, metrics, and tools for clarity and accountability</li>
+                  </ul>
+                  Whether it’s carbon reduction, community upliftment, or governance reform, we turn your data into meaningful insights—bringing confidence and credibility to your impact story.
                 </p>
               </div>
             </div>

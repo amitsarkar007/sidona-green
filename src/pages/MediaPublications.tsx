@@ -13,19 +13,19 @@ const MediaPublications = () => {
     {
       title: "Investment Climate Review - St Helena",
       url: "https://www.gov.uk/research-for-development-outputs/investment-climate-review-st-helena",
-      image: "/images/news_2.png",
+      image: "/images/govuk.jpg",
       description: "Government research on investment climate in St Helena"
     },
     {
       title: "Sounds a bit off track",
       url: "https://bangaloremirror.indiatimes.com/opinion/sunday-read/sounds-a-bit-off-track/articleshow/21750795.cms",
-      image: "https://static.toiimg.com/thumb/msid-21750796,width-400,resizemode-4/21750796.jpg",
+      image: "/images/bangmirror1.jpg",
       description: "Opinion piece on transportation and urban planning"
     },
     {
       title: "Hidden from plain sight",
       url: "https://www.hindustantimes.com/travel/hidden-from-plain-sight/story-I96Wc6eSBC6vF32PmFUSIP.html",
-      image: "/images/plain sight.png",
+      image: "/images/ht.jpg",
       description: "Travel article exploring hidden destinations"
     },
     {
