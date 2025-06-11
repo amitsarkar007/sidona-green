@@ -1,11 +1,10 @@
-
 import { Users, BarChart3, MapPin, TrendingUp } from "lucide-react";
 
 const ServicesSection = () => {
   const services = [
     {
       icon: BarChart3, // BarChart3 for ESG Consultancy (strategy, metrics, reporting)
-      title: "ESG Consultancy Services",
+      title: "ESG Consultancy",
       description: "Comprehensive ESG strategy development and implementation"
     },
     {
@@ -29,7 +28,7 @@ const ServicesSection = () => {
     <section id="services" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
-          OUR SERVICES
+          SERVICES
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
@@ -45,7 +44,7 @@ const ServicesSection = () => {
                 {service.description}
               </p>
               <a 
-                href="/our-services"
+                href="/services"
                 className="bg-white text-orange-600 px-4 py-2 rounded text-sm font-medium hover:bg-gray-100 transition-colors inline-block"
               >
                 Read More

@@ -38,7 +38,7 @@ const FounderSection = () => {
                 </p>
                 
                 <a 
-                  href="/about-us"
+                  href="/about"
                   className="text-orange-600 font-medium hover:text-orange-700 transition-colors text-lg"
                 >
                   Read More...

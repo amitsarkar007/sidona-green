@@ -1,4 +1,3 @@
-
 const TrackRecordSection = () => {
   return (
     <section className="py-16 bg-gray-600 text-white text-center">
@@ -7,7 +6,7 @@ const TrackRecordSection = () => {
           A TRACK RECORD THAT SPEAKS FOR ITSELF.
         </h2>
         <p className="text-lg mb-8 opacity-90">
-        Sidona Green’s smart, industry-leading business solutions are preferred by professionals across the world.
+        Sidona Green's smart, industry-leading business solutions are preferred by professionals across the world.
         </p>
         <a 
           href="/contact"

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -44,22 +43,24 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+      <section className="py-16 bg-gray-100">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8">
+            <h1 className="text-4xl font-bold text-orange-600 mb-4">CONTACT</h1>
+            <p className="text-gray-600 text-lg">
+              Get in touch to discuss how Sidona Green can help your organization achieve its ESG and climate goals.
+            </p>
+          </div>
+        </div>
+      </section>
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
-            <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
-              Contact Us
-            </h1>
-            
             <div className="bg-white rounded-lg shadow-md p-8">
-              <h2 className="text-2xl font-semibold mb-6 text-gray-800">
-                Get in Touch
-              </h2>
-              
+
               <p className="text-gray-600 mb-8">
                 Ready to transform your business with sustainable finance solutions? 
-                Contact us today to discuss how Sidona Green can help your organization 
+                Contact me today to discuss how I can help your organization 
                 achieve its ESG and climate goals.
               </p>
 

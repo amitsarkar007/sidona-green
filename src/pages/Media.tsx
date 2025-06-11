@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const MediaPublications = () => {
+const Media = () => {
     // Added `date` field (ISO 8601) to each publication and sorted descending by date (latest first)
     const publications = [
       {
@@ -99,9 +99,9 @@ const MediaPublications = () => {
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-orange-600 mb-4">PUBLICATIONS & MEDIA</h1>
+            <h1 className="text-4xl font-bold text-orange-600 mb-4">MEDIA</h1>
             <p className="text-gray-600 text-lg">
-              Discover our latest insights, research, and media coverage on sustainable finance and ESG practices.
+              Discover my latest insights, research, and media coverage on sustainable finance and ESG practices.
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ const MediaPublications = () => {
       {/* Publications Grid */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-orange-600 mb-12">Publications & Articles</h2>
+          <h2 className="text-3xl font-bold text-center text-orange-600 mb-12">Press coverage</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {publications.map((publication, index) => (
@@ -190,4 +190,4 @@ const MediaPublications = () => {
   );
 };
 
-export default MediaPublications;
+export default Media;

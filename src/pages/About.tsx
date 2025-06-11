@@ -1,17 +1,18 @@
 import { useEffect, useRef } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import type L from "leaflet";
 
 // Extend Window interface for Leaflet
 declare global {
   interface Window {
-    L: any;
+    L: typeof L;
   }
 }
 
-const AboutUs = () => {
+const About = () => {
   const mapContainer = useRef<HTMLDivElement>(null);
-  const map = useRef<any>(null);
+  const map = useRef<L.Map | null>(null);
 
   useEffect(() => {
     // Dynamically load Leaflet CSS and JS
@@ -90,7 +91,10 @@ const AboutUs = () => {
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-orange-600 mb-4">ABOUT US</h1>
+            <h1 className="text-4xl font-bold text-orange-600 mb-4">ABOUT</h1>
+            <p className="text-gray-600 text-lg">
+              Learn more about my background, experience, and commitment to advancing sustainable finance and ESG practices around the world.
+            </p>
           </div>
         </div>
       </section>
@@ -99,7 +103,7 @@ const AboutUs = () => {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-orange-600 mb-4">FOUNDER</h2>
+            <h2 className="text-3xl font-bold text-orange-600 mb-4">Founder</h2>
           </div>
           <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8">
             <div className="flex flex-col md:flex-row gap-8">
@@ -132,7 +136,7 @@ const AboutUs = () => {
       {/* Interactive Map Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-orange-600 mb-8">INTERNATIONAL ENGAGEMENTS</h2>
+          <h2 className="text-3xl font-bold text-center text-orange-600 mb-8">International Engagements</h2>
           <div 
             ref={mapContainer} 
             className="w-full h-96 rounded-lg shadow-lg"
@@ -288,4 +292,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default About;

@@ -1,8 +1,7 @@
-
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const OurServices = () => {
+const Services = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -11,7 +10,10 @@ const OurServices = () => {
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-orange-600 mb-4">OUR SERVICES</h1>
+            <h1 className="text-4xl font-bold text-orange-600 mb-4">SERVICES</h1>
+            <p className="text-gray-600 text-lg">
+              Explore my range of ESG and sustainability services designed to help your organization thrive in a changing world.
+            </p>
           </div>
         </div>
       </section>
@@ -29,9 +31,9 @@ const OurServices = () => {
                 />
               </div>
               <div className="lg:w-2/3">
-                <h2 className="text-3xl font-bold text-orange-600 mb-4">ESG Consultancy Services</h2>
+                <h2 className="text-3xl font-bold text-orange-600 mb-4">ESG Consultancy</h2>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                We help you conceptualize, coordinate, and implement impactful ESG initiatives tailored to your industry and goals. Our services include:
+                We help you conceptualize, coordinate, and implement impactful ESG initiatives tailored to your industry and goals. Services include:
                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                   <li>
                     Building your ESG framework aligned with global standards (e.g., GRI, SASB, TCFD)
@@ -47,7 +49,7 @@ const OurServices = () => {
                   </li>
                 </ul>
                 <span>
-                  Whether you’re at the beginning of your sustainability journey or looking to elevate your impact, we bring expertise, insight, and care to every step.
+                  Whether you're at the beginning of your sustainability journey or looking to elevate your impact, we bring expertise, insight, and care to every step.
                 </span>
                 </p>
               </div>
@@ -111,7 +113,7 @@ const OurServices = () => {
                     <li>Evaluate how your core business operations align with ESG goals</li>
                     <li>Design tailored frameworks, metrics, and tools for clarity and accountability</li>
                   </ul>
-                  Whether it’s carbon reduction, community upliftment, or governance reform, we turn your data into meaningful insights—bringing confidence and credibility to your impact story.
+                  Whether it's carbon reduction, community upliftment, or governance reform, we turn your data into meaningful insights—bringing confidence and credibility to your impact story.
                 </p>
               </div>
             </div>
@@ -150,4 +152,4 @@ const OurServices = () => {
   );
 };
 
-export default OurServices;
+export default Services;

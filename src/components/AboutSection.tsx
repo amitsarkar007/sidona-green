@@ -1,4 +1,3 @@
-
 const AboutSection = () => {
   return (
     <section id="about" className="py-16 bg-gray-50">
@@ -35,10 +34,10 @@ const AboutSection = () => {
 
             <div className="mt-8">
               <a 
-                href="/about-us"
+                href="/about"
                 className="inline-block bg-orange-600 text-white px-6 py-3 rounded font-medium hover:bg-orange-700 transition-colors"
               >
-                Learn More About Us
+                Learn more
               </a>
             </div>
           </div>

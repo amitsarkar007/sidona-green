@@ -7,10 +7,10 @@ const Header = () => {
 
   const navigationItems = [
     { name: "HOME", href: "/" },
-    { name: "ABOUT US", href: "/about-us" }, 
-    { name: "OUR SERVICES", href: "/our-services" },
-    { name: "PUBLICATIONS & MEDIA", href: "/publications-media" },
-    { name: "CONTACT US", href: "/contact" }
+    { name: "ABOUT", href: "/about" }, 
+    { name: "SERVICES", href: "/services" },
+    { name: "MEDIA", href: "/media" },
+    { name: "CONTACT", href: "/contact" }
   ];
 
   return (
