@@ -41,7 +41,7 @@ const FounderSection = () => {
                   href="/about"
                   className="text-orange-600 font-medium hover:text-orange-700 transition-colors text-lg"
                 >
-                  Read More...
+                  Read More
                 </a>
               </div>
             </div>

@@ -22,7 +22,7 @@ const Footer = () => {
 
             {/* Address */}
             <div>
-              <h3 className="text-lg font-semibold mb-4">Address</h3>
+              <h3 className="text-lg font-semibold mb-4">Contact</h3>
               <div className="text-gray-300 space-y-2">
                 <p>📍 20-22 Wenlock Road | London| N1 7GU England</p>
                 <p>📧 kongkona@sidonaconsulting.co.uk</p>
@@ -32,7 +32,7 @@ const Footer = () => {
 
             {/* Follow Us */}
             <div>
-              <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
+              <h3 className="text-lg font-semibold mb-4">Follow me</h3>
               <p className="text-gray-300 mb-4">
                 Sidona Green - We are a niche consulting advisory company providing advisory services to help your company to be sustainable.
               </p>
