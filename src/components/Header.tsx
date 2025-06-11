@@ -6,11 +6,11 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigationItems = [
-    { name: "HOME", href: "/" },
-    { name: "ABOUT", href: "/about" }, 
-    { name: "SERVICES", href: "/services" },
-    { name: "MEDIA", href: "/media" },
-    { name: "CONTACT", href: "/contact" }
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" }, 
+    { name: "Services", href: "/services" },
+    { name: "Media", href: "/media" },
+    { name: "Contact", href: "/contact" }
   ];
 
   return (
@@ -34,7 +34,7 @@ const Header = () => {
               <Link
                 key={index}
                 to={item.href}
-                className="text-lg font-medium text-gray-700 hover:text-orange-600 transition-colors"
+                className="text-lg font-medium text-gray-700 hover:text-orange-600 transition-colors normal-case"
               >
                 {item.name}
               </Link>
@@ -57,7 +57,7 @@ const Header = () => {
               <Link
                 key={index}
                 to={item.href}
-                className="block py-2 text-lg font-medium text-gray-700 hover:text-orange-600 transition-colors"
+                className="block py-2 text-lg font-medium text-gray-700 hover:text-orange-600 transition-colors normal-case"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
