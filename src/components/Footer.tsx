@@ -24,7 +24,7 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
               <div className="text-gray-300 space-y-2">
-                <p>📍 20-22 Wenlock Road | London| N1 7GU England</p>
+                <p>📍 20-22 Wenlock Road, N1 7GU, London, UK</p>
                 <p>📧 kongkona@sidonaconsulting.co.uk</p>
                 <p>📞 Phone: +44 7736 497010</p>
               </div>

@@ -34,7 +34,7 @@ const Header = () => {
               <Link
                 key={index}
                 to={item.href}
-                className="text-sm font-medium text-gray-700 hover:text-orange-600 transition-colors"
+                className="text-lg font-medium text-gray-700 hover:text-orange-600 transition-colors"
               >
                 {item.name}
               </Link>
@@ -57,7 +57,7 @@ const Header = () => {
               <Link
                 key={index}
                 to={item.href}
-                className="block py-2 text-sm font-medium text-gray-700 hover:text-orange-600 transition-colors"
+                className="block py-2 text-lg font-medium text-gray-700 hover:text-orange-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
