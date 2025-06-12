@@ -62,9 +62,19 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <div className="border-t border-gray-700 py-4">
-        <div className="container mx-auto px-4 text-center text-gray-400">
-          <p>&copy; Sidona Green 2025 | All Rights Reserved | Company number <a href="https://find-and-update.company-information.service.gov.uk/company/14679269" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">14679269</a></p>
+      <div className="border-t border-gray-700 py-4 bg-orange-600">
+        <div className="container mx-auto px-4 text-center text-white">
+          <p>
+            &copy; Sidona Green 2025 | All Rights Reserved | Company number{" "}
+            <a
+              href="https://find-and-update.company-information.service.gov.uk/company/14679269"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-white"
+            >
+              14679269
+            </a>
+          </p>
         </div>
       </div>
     </footer>

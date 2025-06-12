@@ -92,9 +92,28 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
             <h1 className="text-4xl font-bold text-orange-600 mb-4">ABOUT</h1>
-            <p className="text-gray-600 text-lg">
-              Learn more about my background, experience, and commitment to advancing sustainable finance and ESG practices around the world.
-            </p>
+
+            <div className="space-y-6 text-gray-600 leading-relaxed text-lg text-justify">
+              <p>
+                Sidona Green is dedicated to helping financial institutions and corporations navigate the evolving landscape of 
+                ESG and climate finance. With a deep commitment to sustainability and resilience, our work centers on integrating
+                environmental, social, and governance (ESG) principles into core business and investment strategies.
+              </p>
+            
+              <p>
+                We support banks, impact investors, microfinance institutions (MFIs) and non-banking financial companies (NBFCs) in 
+                their Net-Zero transitions including climate risk assessments, and the measurement of financial emissions and 
+                developing strategies to build their green portfolios. Sidona Green also offers bespoke training and workshops on ESG 
+                integration and climate measurement/reporting teams with the knowledge and tools to drive meaningful change in 
+                their organisations.
+              </p>
+            
+              <p>
+                With deep expertise and a hands-on approach, Sidona Green is your partner on the journey toward sustainable 
+                finance and climate resilience.
+              </p>
+            </div>
+
           </div>
         </div>
       </section>
@@ -146,150 +165,143 @@ const About = () => {
       </section>
 
       {/* Projects Delivered Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-bold mb-2 text-orange-600">Europe (1 country)</h3>
-              <ul>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/gb.png" alt="United Kingdom flag" className="inline-block mr-2" /> 
-                  United Kingdom
-                </li>
-              </ul>
-            </div>
-            
-            <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-bold mb-2 text-orange-600">Asia (9 countries)</h3>
-              <ul>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/in.png" alt="India flag" className="inline-block mr-2" /> 
-                  India
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/np.png" alt="Nepal flag" className="inline-block mr-2" /> 
-                  Nepal
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/bt.png" alt="Bhutan flag" className="inline-block mr-2" /> 
-                  Bhutan
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/mm.png" alt="Myanmar flag" className="inline-block mr-2" /> 
-                  Myanmar
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/af.png" alt="Afghanistan flag" className="inline-block mr-2" /> 
-                  Afghanistan
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/am.png" alt="Armenia flag" className="inline-block mr-2" /> 
-                  Armenia
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/bd.png" alt="Bangladesh flag" className="inline-block mr-2" /> 
-                  Bangladesh
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/qa.png" alt="Qatar flag" className="inline-block mr-2" /> 
-                  Qatar
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/tm.png" alt="Turkmenistan flag" className="inline-block mr-2" /> 
-                  Turkmenistan
-                </li>
-              </ul>
-            </div>
-            
-            <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-bold mb-2 text-orange-600">Africa (11 countries)</h3>
-              <ul>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/ml.png" alt="Mali flag" className="inline-block mr-2" /> 
-                  Mali
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/ng.png" alt="Nigeria flag" className="inline-block mr-2" /> 
-                  Nigeria
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/ug.png" alt="Uganda flag" className="inline-block mr-2" /> 
-                  Uganda
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/et.png" alt="Ethiopia flag" className="inline-block mr-2" /> 
-                  Ethiopia
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/ke.png" alt="Kenya flag" className="inline-block mr-2" /> 
-                  Kenya
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/tz.png" alt="Tanzania flag" className="inline-block mr-2" /> 
-                  Tanzania
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/ma.png" alt="Morocco flag" className="inline-block mr-2" /> 
-                  Morocco
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/sh.png" alt="Saint Helena flag" className="inline-block mr-2" /> 
-                  Saint Helena, Ascension and Tristan da Cunha
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/bj.png" alt="Benin flag" className="inline-block mr-2" /> 
-                  Benin
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana flag" className="inline-block mr-2" /> 
-                  Ghana
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/za.png" alt="South Africa flag" className="inline-block mr-2" /> 
-                  South Africa
-                </li>
-              </ul>
-            </div>
-            
-            <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-bold mb-2 text-orange-600">North America (4 countries)</h3>
-              <ul>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/bb.png" alt="Barbados flag" className="inline-block mr-2" /> 
-                  Barbados
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/tt.png" alt="Trinidad and Tobago flag" className="inline-block mr-2" /> 
-                  Trinidad and Tobago
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/us.png" alt="United States flag" className="inline-block mr-2" /> 
-                  United States
-                </li>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/lc.png" alt="Saint Lucia flag" className="inline-block mr-2" /> 
-                  Saint Lucia
-                </li>
-              </ul>
-            </div>
-            
-            <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-bold mb-2 text-orange-600">South America (1 country)</h3>
-              <ul>
-                <li className="text-gray-700 mb-2">
-                  <img src="https://flagcdn.com/24x18/gy.png" alt="Guyana flag" className="inline-block mr-2" /> 
-                  Guyana
-                </li>
-              </ul>
-            </div>
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <h3 className="text-xl font-bold mb-2 text-orange-600">Europe (1 country)</h3>
+            <ul>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/gb.png" alt="United Kingdom flag" className="inline-block mr-2" /> 
+                United Kingdom
+              </li>
+            </ul>
+          </div>
+          <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <h3 className="text-xl font-bold mb-2 text-orange-600">Asia (9 countries)</h3>
+            <ul>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/in.png" alt="India flag" className="inline-block mr-2" /> 
+                India
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/np.png" alt="Nepal flag" className="inline-block mr-2" /> 
+                Nepal
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/bt.png" alt="Bhutan flag" className="inline-block mr-2" /> 
+                Bhutan
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/mm.png" alt="Myanmar flag" className="inline-block mr-2" /> 
+                Myanmar
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/af.png" alt="Afghanistan flag" className="inline-block mr-2" /> 
+                Afghanistan
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/am.png" alt="Armenia flag" className="inline-block mr-2" /> 
+                Armenia
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/bd.png" alt="Bangladesh flag" className="inline-block mr-2" /> 
+                Bangladesh
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/qa.png" alt="Qatar flag" className="inline-block mr-2" /> 
+                Qatar
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/tm.png" alt="Turkmenistan flag" className="inline-block mr-2" /> 
+                Turkmenistan
+              </li>
+            </ul>
+          </div>
+          <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <h3 className="text-xl font-bold mb-2 text-orange-600">Africa (11 countries)</h3>
+            <ul>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/ml.png" alt="Mali flag" className="inline-block mr-2" /> 
+                Mali
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/ng.png" alt="Nigeria flag" className="inline-block mr-2" /> 
+                Nigeria
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/ug.png" alt="Uganda flag" className="inline-block mr-2" /> 
+                Uganda
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/et.png" alt="Ethiopia flag" className="inline-block mr-2" /> 
+                Ethiopia
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/ke.png" alt="Kenya flag" className="inline-block mr-2" /> 
+                Kenya
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/tz.png" alt="Tanzania flag" className="inline-block mr-2" /> 
+                Tanzania
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/ma.png" alt="Morocco flag" className="inline-block mr-2" /> 
+                Morocco
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/sh.png" alt="Saint Helena flag" className="inline-block mr-2" /> 
+                Saint Helena, Ascension and Tristan da Cunha
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/bj.png" alt="Benin flag" className="inline-block mr-2" /> 
+                Benin
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana flag" className="inline-block mr-2" /> 
+                Ghana
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/za.png" alt="South Africa flag" className="inline-block mr-2" /> 
+                South Africa
+              </li>
+            </ul>
+          </div>
+          <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <h3 className="text-xl font-bold mb-2 text-orange-600">North America (4 countries)</h3>
+            <ul>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/bb.png" alt="Barbados flag" className="inline-block mr-2" /> 
+                Barbados
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/tt.png" alt="Trinidad and Tobago flag" className="inline-block mr-2" /> 
+                Trinidad and Tobago
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/us.png" alt="United States flag" className="inline-block mr-2" /> 
+                United States
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/lc.png" alt="Saint Lucia flag" className="inline-block mr-2" /> 
+                Saint Lucia
+              </li>
+            </ul>
+          </div>
+          <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <h3 className="text-xl font-bold mb-2 text-orange-600">South America (1 country)</h3>
+            <ul>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/gy.png" alt="Guyana flag" className="inline-block mr-2" /> 
+                Guyana
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
+      </div>
 
       <Footer />
     </div>
   );
 };
 
-export default About;
+export default About; 

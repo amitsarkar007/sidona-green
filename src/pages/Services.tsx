@@ -12,7 +12,7 @@ const Services = () => {
           <div className="text-center mb-8">
             <h1 className="text-4xl font-bold text-orange-600 mb-4">SERVICES</h1>
             <p className="text-gray-600 text-lg">
-              Explore my range of ESG and sustainability services designed to help your organization thrive in a changing world.
+              Explore our range of ESG and sustainability services designed to help your organization thrive in a changing world.
             </p>
           </div>
         </div>
@@ -25,7 +25,7 @@ const Services = () => {
             <div className="flex flex-col lg:flex-row items-center gap-8 mb-16">
               <div className="lg:w-1/3">
                 <img 
-                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="/images/esg.jpg"
                   alt="ESG Consultancy"
                   className="w-full rounded-lg shadow-md"
                 />
@@ -98,7 +98,7 @@ const Services = () => {
             <div className="flex flex-col lg:flex-row items-center gap-8 mb-16">
               <div className="lg:w-1/3">
                 <img 
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="/images/impact.jpeg"
                   alt="Impact Measurement"
                   className="w-full rounded-lg shadow-md"
                 />
