@@ -9,8 +9,8 @@ const AboutSection = () => {
           
           <div className="space-y-6 text-gray-600 leading-relaxed text-left md:text-center">
             <p>
-              At Sidona Green we are dedicated to helping financial institutions and corporations navigate the evolving landscape of 
-              ESG and climate finance. With a deep commitment to sustainability and resilience, we work centres on integrating 
+              Sidona Green is dedicated to helping financial institutions and corporations navigate the evolving landscape of 
+              ESG and climate finance. With a deep commitment to sustainability and resilience, our work centers on integrating
               environmental, social, and governance (ESG) principles into core business and investment strategies.
             </p>
             
