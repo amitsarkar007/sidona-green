@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const AboutSection = () => {
   return (
     <section id="about" className="py-16 bg-gray-50">
@@ -28,12 +30,12 @@ const AboutSection = () => {
             </p>
 
             <div className="mt-8">
-              <a 
-                href="/about"
+              <Link 
+                to="/about"
                 className="inline-block bg-orange-600 text-white px-6 py-3 rounded font-medium hover:bg-orange-700 transition-colors"
               >
                 Learn more
-              </a>
+              </Link>
             </div>
           </div>
         </div>
