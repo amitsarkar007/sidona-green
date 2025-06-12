@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const TrackRecordSection = () => {
   return (
     <section className="py-16 bg-gray-600 text-white text-center">
@@ -8,12 +10,13 @@ const TrackRecordSection = () => {
         <p className="text-lg mb-8 opacity-90">
         Sidona Green's smart, industry-leading business solutions are preferred by professionals across the world.
         </p>
-        <a 
-          href="/contact"
+        
+        <Link 
+          to="/contact"
           className="inline-block bg-orange-600 text-white px-6 py-3 rounded font-medium hover:bg-orange-700 transition-colors"
         >
           Book Consultation Now
-        </a>
+        </Link>
       </div>
     </section>
   );

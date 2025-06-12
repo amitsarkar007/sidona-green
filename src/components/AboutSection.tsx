@@ -29,14 +29,6 @@ const AboutSection = () => {
               finance and climate resilience.
             </p>
 
-            <div className="mt-8">
-              <Link 
-                to="/about"
-                className="inline-block bg-orange-600 text-white px-6 py-3 rounded font-medium hover:bg-orange-700 transition-colors"
-              >
-                Learn more
-              </Link>
-            </div>
           </div>
         </div>
       </div>

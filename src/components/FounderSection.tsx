@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const FounderSection = () => {
   return (
     <section className="py-16 bg-white">
@@ -37,12 +39,12 @@ const FounderSection = () => {
                   to Financial Institutions in sustainable finance and impact measurement & management.
                 </p>
                 
-                <a 
-                  href="/about"
+                <Link 
+                  to="/about"
                   className="text-orange-600 font-medium hover:text-orange-700 transition-colors text-lg"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>

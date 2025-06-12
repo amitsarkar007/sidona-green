@@ -1,4 +1,5 @@
 import { Users, BarChart3, MapPin, TrendingUp } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const ServicesSection = () => {
   const services = [
@@ -43,12 +44,14 @@ const ServicesSection = () => {
               <p className="text-sm mb-4 opacity-90">
                 {service.description}
               </p>
-              <a 
-                href="/services"
+              {/* Use react-router-dom Link for navigation */}
+              <Link
+                to="/services"
                 className="bg-white text-orange-600 px-4 py-2 rounded text-sm font-medium hover:bg-gray-100 transition-colors inline-block"
+                style={{ color: "#ea580c" }} // Ensures text color is visible
               >
                 Read More
-              </a>
+              </Link>
             </div>
           ))}
         </div>
