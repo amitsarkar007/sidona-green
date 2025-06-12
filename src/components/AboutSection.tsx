@@ -7,16 +7,11 @@ const AboutSection = () => {
             About Sidona Green
           </h2>
           
-          <div className="space-y-6 text-gray-600 leading-relaxed text-left md:text-center">
+          <div className="space-y-6 text-gray-600 leading-relaxed text-justify">
             <p>
               Sidona Green is dedicated to helping financial institutions and corporations navigate the evolving landscape of 
               ESG and climate finance. With a deep commitment to sustainability and resilience, our work centers on integrating
               environmental, social, and governance (ESG) principles into core business and investment strategies.
-            </p>
-            
-            <p>
-              Founded by Kongkona Sarma, a seasoned expert with over 20 years of experience in the financial services industry and 
-              strategy consulting, Sidona Green brings a practical, client-grounded approach to practical, cost-effective climate implementation.
             </p>
             
             <p>
