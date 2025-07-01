@@ -2,7 +2,9 @@
 
 ## Project info
 
-**Live Site**: [https://sidonagreen.netlify.app/](https://sidonagreen.netlify.app/)
+**Live Site**: [https://sidonaconsulting.co.uk/](https://sidonaconsulting.co.uk/)
+
+**Developer**: [Amit Sarkar](https://amitsarkar.tech)
 
 ## How can I edit this code?
 
