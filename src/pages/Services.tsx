@@ -121,8 +121,34 @@ const Services = () => {
         </div>
       </section>
 
-      {/* Responsible Tourism */}
+      {/* Proposal Development & Pipeline Strategy */}
       <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex flex-col lg:flex-row items-center gap-8 mb-16">
+              <div className="lg:w-1/3">
+                <img 
+                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Proposal Development & Pipeline Strategy"
+                  className="w-full rounded-lg shadow-md"
+                />
+              </div>
+              <div className="lg:w-2/3">
+                <h2 className="text-3xl font-bold text-orange-600 mb-4">Proposal Development &amp; Pipeline Strategy</h2>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  At Sidona, we bring deep experience in leading end-to-end proposal development - from pipeline oversight to technical writing - for major donors and DFIs including FCDO, SDC, BII, FMO and the World Bank. We’ve helped secure and deliver complex, multi-million-pound programmes across economic growth, ESG, impact measurement, and sustainable finance. Our team has led technical inputs, coordinated bid teams, and navigated key donor frameworks such as the UK’s EACDS.
+                </p>
+                <p className="text-gray-600 leading-relaxed">
+                  We understand what it takes to win - sharp strategy, compelling narratives, and seamless&nbsp;collaboration.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Responsible Tourism */}
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col lg:flex-row items-center gap-8 mb-16">

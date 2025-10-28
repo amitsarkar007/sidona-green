@@ -5,6 +5,13 @@ const Media = () => {
     // Added `date` field (ISO 8601) to each publication and sorted descending by date (latest first)
     const publications = [
       {
+        title: "Mobilizing Together: Sustainable Finance Conference 2025",
+        url: "https://www.linkedin.com/posts/sri-lanka-sustainable-banking-initiative_sustainablefinance-sustainablefinance-sdgs-activity-7386033037249056768-_InQ/",
+        image: "/images/1760967429542.jpeg",
+        description: "Sri Lanka Sustainable Banking Initiative LinkedIn post",
+        date: "2025-10-09"
+      },
+      {
         title: "ICC Biz Live - Indian Chamber of Commerce Live Show",
         url: "https://www.linkedin.com/posts/indianchamber_iccbizlive-indianchamberofcommerce-liveshow-activity-7335993503350431744-qVPp/",
         image: "/images/1749037146453.jpeg",

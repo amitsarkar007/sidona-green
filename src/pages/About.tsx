@@ -45,6 +45,7 @@ const About = () => {
         { name: "India", lat: 22.3511148, lng: 78.6677428 },
         { name: "Nepal", lat: 28.3780464, lng: 83.9999901 },
         { name: "Bhutan", lat: 27.549511, lng: 90.5119273 },
+        { name: "Sri Lanka", lat: 7.873054, lng: 80.771797 },
         { name: "Myanmar", lat: 17.1750495, lng: 95.9999652 },
         { name: "Afghanistan", lat: 33.7680065, lng: 66.2385139 },
         { name: "Armenia", lat: 40.7696272, lng: 44.6736646 },
@@ -177,7 +178,7 @@ const About = () => {
             </ul>
           </div>
           <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-bold mb-2 text-orange-600">Asia (9 countries)</h3>
+            <h3 className="text-xl font-bold mb-2 text-orange-600">Asia (10 countries)</h3>
             <ul>
               <li className="text-gray-700 mb-2">
                 <img src="https://flagcdn.com/24x18/in.png" alt="India flag" className="inline-block mr-2" /> 
@@ -190,6 +191,10 @@ const About = () => {
               <li className="text-gray-700 mb-2">
                 <img src="https://flagcdn.com/24x18/bt.png" alt="Bhutan flag" className="inline-block mr-2" /> 
                 Bhutan
+              </li>
+              <li className="text-gray-700 mb-2">
+                <img src="https://flagcdn.com/24x18/lk.png" alt="Sri Lanka flag" className="inline-block mr-2" /> 
+                Sri Lanka
               </li>
               <li className="text-gray-700 mb-2">
                 <img src="https://flagcdn.com/24x18/mm.png" alt="Myanmar flag" className="inline-block mr-2" /> 
