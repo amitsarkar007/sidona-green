@@ -75,6 +75,17 @@ const Footer = () => {
               14679269
             </a>
           </p>
+          <p>
+            Website designed by{" "}
+            <a
+              href="https://a2js.tech"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-white"
+            >
+              A2JS Technologies
+            </a>
+          </p>
         </div>
       </div>
     </footer>
